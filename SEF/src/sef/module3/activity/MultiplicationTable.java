@@ -7,7 +7,7 @@ package sef.module3.activity;
  * @author 
  *
  */
-public class MultiplicationTable {
+public class  MultiplicationTable {
 
 	/**
 	 * @param args
@@ -35,11 +35,12 @@ public class MultiplicationTable {
 //		// Table from 11 to 20
 //		
 //		// complete code. write for loop for int i
-//			System.out.println("*** Table of "+i + " ***");
-//			// complete code. write nested for loop for int j
-//				System.out.println(i + "X" + j +" = " + i*j);
-//		}
-//		}
+//			for (int i = 10; i <= 20; i++) {
+////			System.out.println("*** Table of "+i + " ***");
+////			for (int j = 10; j <= 20; j++) {
+////				System.out.println(i + "X" + j +" = " + i*j);
+////		}
+////		}
 //		
 		
 	}

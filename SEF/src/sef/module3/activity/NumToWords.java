@@ -21,7 +21,7 @@ public class NumToWords {
 		
 		
 				
-		int i = 2;
+		int i = 5;
 		String numText ;
 		switch(i) {
 		case 1:

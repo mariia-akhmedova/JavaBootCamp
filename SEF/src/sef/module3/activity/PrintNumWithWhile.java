@@ -22,14 +22,13 @@ public class PrintNumWithWhile {
 //			i=i+2;			
 //		}
 //		
-		 
-		// write code to Print all odd numbers less than 100
-		int j = 100;
-		while(j < 100) {
-			System.out.println(j);
-			j = j +2;
-			
-		}
+
+		// Print all even numbers less than 100
+//		int x = 100;
+//		while(x < 100) {
+//			System.out.println(x);
+//			x += 2;
+//		}
 
 	}
 
