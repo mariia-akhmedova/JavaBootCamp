@@ -21,12 +21,19 @@ public class CalculatorClient {
 		// Add 
 		int result = normalCalc.add(4, 5);
 		System.out.println("1) Add result is " + result);
-		
-				
-		// Multiply 
+
+		// Subtract
+		result = normalCalc.subtract( 8, 4);
+		System.out.println("2) Subtract result is " + result);
+
+		// Multiply
 		int[] mul = {2, 3, 4};
 		result = normalCalc.multiply(mul);
-		System.out.println("2) Multiplication result is " + result); 
+		System.out.println("3) Multiplication result is " + result);
+
+		// Divide
+		result = normalCalc.divide(100, 10);
+		System.out.println("4) Divide result is " + result);
 		
 
 	}

@@ -73,4 +73,5 @@ public class Calculator {
 		return divValue;
 
 	}
+
 }
