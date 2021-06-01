@@ -35,7 +35,7 @@ public class Student_I extends Person_I {
 	}
 	
 	public void announce(){
-		super.announce();  // calls announce() method of Person class
+		super.announce(); // calls announce() method of Person class
 		System.out.println("Inside Student Class");
 	}
 		
