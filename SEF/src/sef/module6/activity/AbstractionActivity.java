@@ -8,9 +8,22 @@ public class AbstractionActivity {
         p1.setColor("Red");
 
         System.out.println("*** Print the information for Square");
-        System.out.println("Color of square");
+        System.out.println("Color of square " + p1.getColor());
+        System.out.println("Area of square " + p1.calculateArea());
+        System.out.println("Perimeter of square " + p1.calculatePerimeter());
+
+        Shape p2 = new Rectangle(5,6);
+
+        p2.setColor("Blue");
+
+        System.out.println("*** Print the information for Rectangle");
+        System.out.println("Color of rectangle " + p2.getColor());
+        System.out.println("Area of rectangle " + p2.calculateArea());
+        System.out.println("Perimeter of rectangle " + p2.calculatePerimeter());
 
     }
+
+
 
 
 }
