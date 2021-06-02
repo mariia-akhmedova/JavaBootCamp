@@ -3,6 +3,8 @@ package sef.module8.activity;
 //The following program, when run, results in an exception.
 //1 - Use try catch appropriately to make sure that the exception is caught and a user friendly message is displayed. 
 
+import java.lang.reflect.Array;
+
 public class TryCatchFinallyActivity {
 
 
