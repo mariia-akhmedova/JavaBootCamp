@@ -2,6 +2,7 @@ package sef.module9.activity;
 //Needs to be completed
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListActivity {
@@ -31,6 +32,7 @@ public class ListActivity {
             Object name = list.get(i);
             System.out.println("name: " + name);
         }
+
 
     }
 }
