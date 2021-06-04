@@ -3,12 +3,14 @@ package activity1;
 public class Employee extends Person {
     private String company;
     private String title;
+    private double salary;
 
-    public Employee(String name, int age, String company, String title) {
+    public Employee(String name, int age, String company, String title, double salary) {
         this.setName(name);
         this.setAge(age);
         this.company = company;
         this.title = title;
+        this.salary = salary;
     }
 
     public Employee() {
@@ -16,6 +18,7 @@ public class Employee extends Person {
         this.setAge(0);
         this.company = ("Unknown");
         this.title = ("Unknown");
+        this.salary = (0);
     }
 
     public String getCompany() {
@@ -32,6 +35,14 @@ public class Employee extends Person {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public void introduce() {
