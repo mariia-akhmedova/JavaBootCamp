@@ -1,6 +1,7 @@
 package activity1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MainActivity {
@@ -31,13 +32,13 @@ public class MainActivity {
 
 
     }
-    static void print(List<Employee> list) {
 
+    static void print(List<Employee> list) {
+        list.sort(Collections.reverseOrder(new CustomComparator()));
         for (int i = 0; i < list.size(); i++) {
             Employee employee = list.get(i);
             System.out.println("name: " + employee.getName());
         }
-
 
     }
 
