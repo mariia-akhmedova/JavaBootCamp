@@ -1,11 +1,13 @@
 package activity1;
 
+import activity2.NameContainsNumbersException;
+
 public class Employee extends Person {
     private String company;
     private String title;
     private double salary;
 
-    public Employee(String name, int age, String company, String title, double salary) {
+    public Employee(String name, int age, String company, String title, double salary) throws NameContainsNumbersException {
         this.setName(name);
         this.setAge(age);
         this.company = company;
@@ -13,7 +15,7 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public Employee() {
+    public Employee() throws NameContainsNumbersException {
         this.setName("Unknown");
         this.setAge(0);
         this.company = ("Unknown");

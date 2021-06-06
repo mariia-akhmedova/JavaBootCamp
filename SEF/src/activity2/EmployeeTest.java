@@ -37,7 +37,7 @@ public class EmployeeTest extends TestCase {
         assertEquals(employee.getAge(),0);
     }
 
-    public void testCustomConstructor() {
+    public void testCustomConstructor() throws NameContainsNumbersException {
         Employee customEmployee = new Employee("Mary", 23, "Accenture", "QA Engineer", 2000.0);
         assertEquals(customEmployee.getName(), "Mary");
         assertEquals(customEmployee.getAge(), 23);

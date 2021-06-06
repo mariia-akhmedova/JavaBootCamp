@@ -1,12 +1,14 @@
 package activity1;
 
+import activity2.NameContainsNumbersException;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class MainActivity {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NameContainsNumbersException {
 
 
         Person person = new Person("Mary", 23);
