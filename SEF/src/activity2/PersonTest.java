@@ -29,8 +29,9 @@ public class PersonTest extends TestCase {
 
     }
     public void testCustomConstructor() {
-        Person customPerson = new Person("Mary", 23);
-        assertEquals(customPerson.getName(), "Mary");
+        String name = "name";
+        Person customPerson = new Person(name, 23);
+        assertEquals(customPerson.getName(), name);
         assertEquals(customPerson.getAge(), 23);
 
 

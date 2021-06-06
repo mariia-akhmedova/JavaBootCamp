@@ -14,7 +14,8 @@ public class Students extends Person {
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
     }
-public void introduce() {
+
+    public void introduce() {
         System.out.println("I study in university " + schoolName);
-}
+    }
 }
