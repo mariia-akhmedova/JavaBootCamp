@@ -7,30 +7,24 @@ public class Calculator {
     }
 
     public int subtract(int x, int y) {
-      return x-y;
-        }
+        return x - y;
+    }
 
 
-
-    private static int multiply(int[] numbers) {
-        int temp = 1;
-
-        for (int i = 0; i < numbers.length; i++) {
-            temp = temp * numbers[i];
-        }
-        return temp;
+    public int multiply(int x, int y) {
+        return x * y;
 
     }
 
-    private static int divide(int x, int y) {
+    public int divide(int x, int y) {
         int divValue = 0;
         if (x == 0 || y == 0) {
             System.out.println("One of the number is 0, I can't do the divide operation");
             divValue = 0;
-            return divValue ;
+            return divValue;
 
         } else {
-            divValue = x/y;
+            divValue = x / y;
 
         }
         return divValue;
